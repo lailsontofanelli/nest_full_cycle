@@ -1,0 +1,5 @@
+docker build -t lmt27/nestfullcycle .
+
+docker run -p 3000:3000 lmt27/nestfullcycle
+
+docker push lmt27/nestfullcycle:latest
